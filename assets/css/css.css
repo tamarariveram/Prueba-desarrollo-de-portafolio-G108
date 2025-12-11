@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.flex-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.flex-menu ul{
+    display: flex;
+    gap: 40px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 1em;
+}
+li a:hover{
+    color: rgb(255, 170, 170);
+}
+header{
+    background-color:white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+li{
+    list-style: none;
+}
+.btn-portfolio{
+    background-color: rgb(255, 170, 170);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn-portfolio a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.btn-portfolio:hover{
+    background-color: rgb(255, 100, 100);
+}
