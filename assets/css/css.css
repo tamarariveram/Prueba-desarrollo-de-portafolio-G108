@@ -119,10 +119,10 @@ h1 {
   flex-direction: column;
   gap: 40px;
 }
-h2{
-    font-size: 2em;
-    color: oklch(0.25 0 0);
-    margin-bottom: 20px;
+h2 {
+  font-size: 2em;
+  color: oklch(0.25 0 0);
+  margin-bottom: 20px;
 }
 .box {
   display: flex;
@@ -133,20 +133,62 @@ h2{
   border-left: 6px solid rgb(255, 154, 154);
   box-shadow: 0 10px 20px rgba(255, 154, 154, 0.1);
 }
-.information-ed{
+.information-ed {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-h3{
-    font-size: 1.5em;
-    color: oklch(0.25 0 0);
+h3 {
+  font-size: 1.5em;
+  color: oklch(0.25 0 0);
 }
-.date-ed p{
+.date-ed p {
+  background-color: rgb(255, 236, 236);
+  color: rgb(255, 154, 154);
+  font-size: 0.9em;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+#experiencia{  
+    background-color: oklch(97.015% 0.00011 271.152 / 0.429);
+}
+.grid{
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  gap: 40px;
+  margin-top: 50px;
+}
+.grid-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(255, 234, 234, 0.799);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.date-ex{
+  font-size: 0.9em;
+  font-weight: 500;
+  color: oklch(55.208% 0.00006 271.152);
+}
+#experiencia p{
+  font-size: 1em;
+  line-height: 1.6em;
+}
+.name-job{
+  font-size: 1.2em;
+  font-weight: 600;
+  color:rgb(255, 154, 154);
+}
+.flex-skills{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.skill{
     display: inline-block;
-    background-color: rgb(255, 236, 236);
-    color: rgb(255, 154, 154);
-    font-size: 0.9em;
-    padding: 10px 20px;
-    border-radius: 20px;
+  background-color: oklch(94.298% 0.02856 17.464 / 0.935);
+  padding: 10px 20px;
+  border-radius: 200px;
 }
