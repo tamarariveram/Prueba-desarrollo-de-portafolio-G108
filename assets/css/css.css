@@ -191,4 +191,36 @@ h3 {
   background-color: oklch(94.298% 0.02856 17.464 / 0.935);
   padding: 10px 20px;
   border-radius: 200px;
+  font-size: 0.8em;
+}
+#footer{
+    background-color: oklch(0.25 0 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+#footer img{
+    width: 20px;
+}
+#footer a,#footer p{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9em;
+}
+
+.flex-column{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+h5{
+    color: rgb(255, 154, 154);
+}
+li{
+    line-height: 25px;
+}
+#footer a:hover{
+    color: rgb(255, 170, 170);
 }
