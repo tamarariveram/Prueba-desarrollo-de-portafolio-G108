@@ -77,6 +77,9 @@ h1 {
   font-weight: 800;
   color: oklch(0.25 0 0);
 }
+#introduction {
+  background-color: oklch(97.015% 0.00011 271.152 / 0.429);
+}
 #introduction .p1 {
   font-size: 1.2em;
   color: oklch(55.208% 0.00006 271.152);
@@ -107,5 +110,7 @@ h1 {
 }
 #introduction img {
   width: 80%;
-  border-radius: 10px;
+  border-radius: 999px;
+  border: 5px solid rgb(255, 170, 170);
+  box-shadow: 0 20px 40px rgba(255, 176, 176, 0.289);
 }
