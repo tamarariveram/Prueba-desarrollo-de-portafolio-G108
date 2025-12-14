@@ -114,3 +114,39 @@ h1 {
   border: 5px solid rgb(255, 170, 170);
   box-shadow: 0 20px 40px rgba(255, 176, 176, 0.289);
 }
+.flex-education {
+  background-color: rgba(255, 219, 219, 0.329);
+  flex-direction: column;
+  gap: 40px;
+}
+h2{
+    font-size: 2em;
+    color: oklch(0.25 0 0);
+    margin-bottom: 20px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  border-left: 6px solid rgb(255, 154, 154);
+  box-shadow: 0 10px 20px rgba(255, 154, 154, 0.1);
+}
+.information-ed{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h3{
+    font-size: 1.5em;
+    color: oklch(0.25 0 0);
+}
+.date-ed p{
+    display: inline-block;
+    background-color: rgb(255, 236, 236);
+    color: rgb(255, 154, 154);
+    font-size: 0.9em;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
