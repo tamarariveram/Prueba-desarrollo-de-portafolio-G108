@@ -149,10 +149,10 @@ h3 {
   padding: 10px 20px;
   border-radius: 20px;
 }
-#experiencia{  
-    background-color: oklch(97.015% 0.00011 271.152 / 0.429);
+#experiencia {
+  background-color: oklch(97.015% 0.00011 271.152 / 0.429);
 }
-.grid{
+.grid {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
   gap: 40px;
@@ -167,60 +167,72 @@ h3 {
   flex-direction: column;
   gap: 20px;
 }
-.date-ex{
+.grid-box img {
+  width: 100%;
+  border-radius: 10px;
+}
+.date-ex {
   font-size: 0.9em;
   font-weight: 500;
   color: oklch(55.208% 0.00006 271.152);
 }
-#experiencia p{
+#experiencia p {
   font-size: 1em;
   line-height: 1.6em;
 }
-.name-job{
+.name-job {
   font-size: 1.2em;
   font-weight: 600;
-  color:rgb(255, 154, 154);
+  color: rgb(255, 154, 154);
 }
-.flex-skills{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
+.flex-skills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
-.skill{
-    display: inline-block;
+.skill {
+  display: inline-block;
   background-color: oklch(94.298% 0.02856 17.464 / 0.935);
   padding: 10px 20px;
   border-radius: 200px;
   font-size: 0.8em;
 }
-#footer{
-    background-color: oklch(0.25 0 0);
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
+#footer {
+  background-color: oklch(0.25 0 0);
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
 }
-#footer img{
-    width: 20px;
+#footer img {
+  width: 20px;
 }
-#footer a,#footer p{
-    text-decoration: none;
-    color: white;
-    font-size: 0.9em;
+#footer a,
+#footer p {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9em;
 }
 
-.flex-column{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px;
+.flex-column {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
 }
-h5{
-    color: rgb(255, 154, 154);
+h5 {
+  color: rgb(255, 154, 154);
 }
-li{
-    line-height: 25px;
+li {
+  line-height: 25px;
 }
-#footer a:hover{
-    color: rgb(255, 170, 170);
+#footer a:hover {
+  color: rgb(255, 170, 170);
+}
+.legal {
+  background-color: oklch(0.25 0 0);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8em;
+  color: oklch(80% 0.00006 271.152);
 }
