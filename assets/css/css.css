@@ -4,53 +4,66 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
+
 section {
   padding: 60px 80px;
 }
+
 .flex {
   display: flex;
   gap: 10px;
 }
+
 .flex-header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px;
 }
+
 .flex-menu ul {
   display: flex;
   gap: 40px;
 }
+
 li a {
   text-decoration: none;
   color: oklch(0.25 0 0);
   font-weight: 400;
   font-size: 1em;
 }
+
 li a:hover {
   color: rgb(255, 170, 170);
 }
+
 header {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 li {
   list-style: none;
 }
+
 .btn-portfolio {
   background-color: rgb(255, 170, 170);
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
 }
+
 .btn-portfolio a {
   text-decoration: none;
   color: white;
   font-weight: 500;
 }
+
 .btn-portfolio:hover {
   background-color: rgb(255, 100, 100);
+  transition-duration: 0.6s;
 }
+
 .colum1 {
   width: 50%;
   display: flex;
@@ -59,12 +72,14 @@ li {
   gap: 20px;
   padding: 20px;
 }
+
 .colum2 {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .preview-title {
   font-size: 1em;
   font-weight: 400;
@@ -72,58 +87,71 @@ li {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
 h1 {
   font-size: 4em;
   font-weight: 800;
   color: oklch(0.25 0 0);
 }
+
 #introduction {
   background-color: oklch(97.015% 0.00011 271.152 / 0.429);
 }
+
 #introduction .p1 {
   font-size: 1.2em;
   color: oklch(55.208% 0.00006 271.152);
   line-height: 1.6em;
 }
+
 #introduction .p2 {
   font-size: 1em;
   color: oklch(55.208% 0.00006 271.152);
   line-height: 1.6em;
 }
+
 .btn-download {
   border: 1px solid rgb(255, 170, 170);
   background-color: transparent;
   padding: 15px 30px;
   border-radius: 5px;
 }
+
 .btn-download a {
   text-decoration: none;
   color: oklch(0.25 0 0);
   font-weight: 500;
 }
+
 .btn-download:hover {
   background-color: rgb(255, 170, 170);
   color: white;
+  transition-duration: 0.6s;
 }
+
 .btn-download a:hover {
   color: white;
 }
+
 #introduction img {
   width: 80%;
   border-radius: 999px;
   border: 5px solid rgb(255, 170, 170);
   box-shadow: 0 20px 40px rgba(255, 176, 176, 0.289);
 }
+
 .flex-education {
   background-color: rgba(255, 219, 219, 0.329);
   flex-direction: column;
   gap: 40px;
 }
+
 h2 {
   font-size: 2em;
   color: oklch(0.25 0 0);
   margin-bottom: 20px;
 }
+
 .box {
   display: flex;
   justify-content: space-between;
@@ -133,15 +161,18 @@ h2 {
   border-left: 6px solid rgb(255, 154, 154);
   box-shadow: 0 10px 20px rgba(255, 154, 154, 0.1);
 }
+
 .information-ed {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 h3 {
   font-size: 1.5em;
   color: oklch(0.25 0 0);
 }
+
 .date-ed p {
   background-color: rgb(255, 236, 236);
   color: rgb(255, 154, 154);
@@ -149,15 +180,18 @@ h3 {
   padding: 10px 20px;
   border-radius: 20px;
 }
+
 #experiencia {
   background-color: oklch(97.015% 0.00011 271.152 / 0.429);
 }
+
 .grid {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
   gap: 40px;
   margin-top: 50px;
 }
+
 .grid-box {
   background-color: white;
   padding: 30px;
@@ -167,29 +201,37 @@ h3 {
   flex-direction: column;
   gap: 20px;
 }
+
 .grid-box img {
   width: 100%;
+  height: 300px;
   border-radius: 10px;
+  object-fit: contain;
 }
+
 .date-ex {
   font-size: 0.9em;
   font-weight: 500;
   color: oklch(55.208% 0.00006 271.152);
 }
+
 #experiencia p {
   font-size: 1em;
   line-height: 1.6em;
 }
+
 .name-job {
   font-size: 1.2em;
   font-weight: 600;
   color: rgb(255, 154, 154);
 }
+
 .flex-skills {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
+
 .skill {
   display: inline-block;
   background-color: oklch(94.298% 0.02856 17.464 / 0.935);
@@ -197,15 +239,18 @@ h3 {
   border-radius: 200px;
   font-size: 0.8em;
 }
+
 #footer {
   background-color: oklch(0.25 0 0);
   display: flex;
   justify-content: space-between;
   padding: 40px;
 }
+
 #footer img {
   width: 20px;
 }
+
 #footer a,
 #footer p {
   text-decoration: none;
@@ -220,19 +265,32 @@ h3 {
   gap: 10px;
   padding: 20px;
 }
+
+.flex-column b {
+  font-size: 1em;
+  color: rgb(255, 154, 154);
+}
+
 h5 {
   color: rgb(255, 154, 154);
 }
+
 li {
   line-height: 25px;
 }
+
 #footer a:hover {
   color: rgb(255, 170, 170);
 }
+
 .legal {
   background-color: oklch(0.25 0 0);
   text-align: center;
   padding: 20px;
   font-size: 0.8em;
   color: oklch(80% 0.00006 271.152);
+}
+
+#portafolio {
+  background-color: oklch(94.515% 0.02742 17.433 / 0.429);
 }
