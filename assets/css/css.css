@@ -160,6 +160,7 @@ h2 {
 
 .box {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   background-color: white;
   padding: 40px;
@@ -297,6 +298,60 @@ li {
   color: oklch(80% 0.00006 271.152);
 }
 
+ul {
+  padding-left: 0;
+}
+
 #portafolio {
   background-color: oklch(94.515% 0.02742 17.433 / 0.429);
+}
+
+@media (max-width: 768px) {
+  .colum1,
+  .colum2 {
+    width: 100%;
+  }
+
+  .flex-header {
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .grid-box {
+    gap: 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #footer {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .flex-column {
+    width: 100%;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .box {
+    flex-direction: row-reverse;
+  }
 }
